@@ -9,9 +9,9 @@
 
 
 	<?php if($_GET['id']=='1') { ?>
-<title>The value of a college degree: here’s what it’s really worth</title>
+<title>The value of a college degree: here's what it's really worth</title>
 <?php } else if($_GET['id']=='2') { ?> }
-<title>White girls on Langdon Street really just can’t right now</title>
+<title>White girls on Langdon Street really just can't right now</title>
 <?php } else if($_GET['id']=='3') { ?> }
 <title>In shocking move, student writes second post on study abroad blog</title>
 <?php } else if($_GET['id']=='4') { ?> }
@@ -21,15 +21,15 @@
 <?php } else if($_GET['id']=='6') { ?> }
 <title>Student watching porn in Gordon Commons has a really good excuse</title>
 <?php } else if($_GET['id']=='7') { ?> }
-<title>Spring block party not ‘anti-Revelry,’ student organizers say</title>
+<title>Spring block party not ‘anti-Revelry,' student organizers say</title>
 <?php } else if($_GET['id']=='8') { ?> }
-<title>Chancellor Blank one of rapper Waka Flocka Flame’s biggest fans</title>
+<title>Chancellor Blank one of rapper Waka Flocka Flame's biggest fans</title>
 <?php } else if($_GET['id']=='9') { ?> }
-<title>Jon Huntsman saw UW students’ angry commencement tweets, wept bitterly</title>
+<title>Jon Huntsman saw UW students' angry commencement tweets, wept bitterly</title>
 <?php } else if($_GET['id']=='10') { ?> }
-<title>Poll finds half of state voters likely to vote for the other candidate that isn’t Walker</title>
+<title>Poll finds half of state voters likely to vote for the other candidate that isn't Walker</title>
 <?php } else if($_GET['id']=='11') { ?> }
-<title>Nation captivated by college newspaper writer’s opinions on Ukraine</title>
+<title>Nation captivated by college newspaper writer's opinions on Ukraine</title>
 <?php } else if($_GET['id']=='12') { ?> }
 <title>Letter to the Editor: Alcohol consumption suspected in Sellery Hall</title>
 <?php } else if($_GET['id']=='13') { ?> }
@@ -55,9 +55,9 @@
 <meta property="og:image" content="http://badgerherald.com/dirtybird/logo-main.png"/>
 
 <?php if($_GET['id']=='1') { ?>
-<meta property="og:title" content="The value of a college degree: here’s what it’s really worth"/>
+<meta property="og:title" content="The value of a college degree: here's what it's really worth"/>
 <?php } else if($_GET['id']=='2') { ?> }
-<meta property="og:title" content="White girls on Langdon Street really just can’t right now"/>
+<meta property="og:title" content="White girls on Langdon Street really just can't right now"/>
 <?php } else if($_GET['id']=='3') { ?> }
 <meta property="og:title" content="In shocking move, student writes second post on study abroad blog"/>
 <?php } else if($_GET['id']=='4') { ?> }
@@ -67,15 +67,15 @@
 <?php } else if($_GET['id']=='6') { ?> }
 <meta property="og:title" content="Student watching porn in Gordon Commons has a really good excuse"/>
 <?php } else if($_GET['id']=='7') { ?> }
-<meta property="og:title" content="Spring block party not ‘anti-Revelry,’ student organizers say"/>
+<meta property="og:title" content="Spring block party not 'anti-Revelry,' student organizers say"/>
 <?php } else if($_GET['id']=='8') { ?> }
-<meta property="og:title" content="Chancellor Blank one of rapper Waka Flocka Flame’s biggest fans"/>
+<meta property="og:title" content="Chancellor Blank one of rapper Waka Flocka Flame's biggest fans"/>
 <?php } else if($_GET['id']=='9') { ?> }
-<meta property="og:title" content="Jon Huntsman saw UW students’ angry commencement tweets, wept bitterly"/>
+<meta property="og:title" content="Jon Huntsman saw UW students' angry commencement tweets, wept bitterly"/>
 <?php } else if($_GET['id']=='10') { ?> }
-<meta property="og:title" content="Poll finds half of state voters likely to vote for the other candidate that isn’t Walker"/>
+<meta property="og:title" content="Poll finds half of state voters likely to vote for the other candidate that isn't Walker"/>
 <?php } else if($_GET['id']=='11') { ?> }
-<meta property="og:title" content="Nation captivated by college newspaper writer’s opinions on Ukraine"/>
+<meta property="og:title" content="Nation captivated by college newspaper writer's opinions on Ukraine"/>
 <?php } else if($_GET['id']=='12') { ?> }
 <meta property="og:title" content="Letter to the Editor: Alcohol consumption suspected in Sellery Hall"/>
 <?php } else if($_GET['id']=='13') { ?> }

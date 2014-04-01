@@ -7,7 +7,7 @@
 	<link rel="Shortcut Icon" href="/rsc/images/favicon.ico" type="image/x-icon"/>
 	<!-- Add the script to the HEAD of your document -->
 	
-<meta property="og:image" content="logo-main.png"/>
+<meta property="og:image" content="http://badgerherald.com/dirtybird/logo-main.png"/>
 <meta property="og:title" content="THE DIRTY BIRD - A SATIRICAL BADGER HERALD PRODUCTION"/>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <link href="http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic|Yanone+Kaffeesatz:400,300,700|Open+Sans|PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">

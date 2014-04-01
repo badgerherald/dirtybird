@@ -6,6 +6,9 @@
 		margin-top: 220px;
 		text-align: center;
 	}
+	img{
+		max-width: 100%;
+	}
 	.site-container{
 		width: 960px;
 		margin: 0 auto;
@@ -170,6 +173,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endC
 		}
 		h2{
 			float: left;
+			max-width: 460px;
 		}
 		&:nth-child(odd){
 			background: #F6CECE;
@@ -255,4 +259,22 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endC
 }
 .sports, .opinion, .arts{
 	margin-bottom: 48px;	
+}
+.post-nav{
+	width: 500px;
+	a{
+		color: rgb(191, 20, 0);;
+		font-weight: bold;
+		font-family: Helvetica;
+		font-size: 1.2em;
+		&:hover{
+			color: red;
+		}
+	}
+}
+.previous-post{
+	float: left;
+}
+.next-post{
+	float: right;
 }

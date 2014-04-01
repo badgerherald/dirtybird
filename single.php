@@ -1,23 +1,36 @@
-
+<?php
+$prev_id = intval($_GET['id']) - 1;
+if($prev_id == 0){
+	$prev_id = 18;
+}
+$next_id = intval($_GET['id']) + 1;
+if($next_id == 19){
+	$next_id = 1;
+}
+?>
+<div class="post-nav cf">
+<div class="previous-post"><a href="index.php?id=<?php echo $prev_id; ?>">&larr; Previous Post</a></div> 
+<div class="next-post"><a href="index.php?id=<?php echo $next_id; ?>">Next Post &rarr;</a></div> 
+</div>
 
 <div id="float-left">
 
 <?php if($_GET['id']=='1') { ?>
 
-<h2>ASM overrun by reptilian shape-shifters</h2>
+<h2>The value of a college degree: here’s what it’s really worth</h2>
 
+<p>With the cost of tuition soaring and high rates of employment among recent graduates, many are questioning whether a college education is worth anything anymore.</p>
 
-<p>With the recent Associated Students of Madison elections solidifying students' positions of power on campus, some have their beady eyes on a higher prize Ñ world domination.</p>
+<p>But amid this debate, it remains clear the value of a college degree is not diminished at all and, in fact, has remained stable for decades at $7.</p>
 
-<p>After seeing ASM Chair Andrew Bulovsky attempting to hide his tail and cover a patch of scales on his face in a Student Activity Center bathroom last week, The Badger Herald has since uncovered that Bulovsky and at least 18 more student government members are Reptilian shape-shifters.</p>
+<p>The University of Wisconsin prides itself on turning out top of the line, high quality college degrees and that begins with the paper. They don’t skimp on the paper, opting for an off-white, medium weight bond paper, valued at $1.25 a sheet. After pouring as much as $60,000 into your state school education, the university doesn’t skimp on your way out the door like Michigan and Minnesota, which award degrees on class 8.5 x 11 printer paper.</p>
 
-<p>UW junior Natasha Borislow, upon hearing of the development, said she was baffled as to why reptilians would choose the bodies of ASM representatives in their quest to obtain world power.</p>
+<p>Your newly-minted degree will also prove invaluable —  actually, valued at $2 — when you get a look at that raised engraved seal of Madison’s official branding. The glossy “University of Wisconsin-Madison” typeface embossed on the last four to five years of your life.
+</p>
+<p>But the cost of your college degree could not be complete without the gold foiling that frames the UW crest on your degree  — the summation of all your blood, sweat and tears in dogged pursuit of your Millennial American Dream — costs a pretty penny ($.75).</p>
 
-<p>"Wait, what even is ASM?" Borislow asked before googling it on her smartphone and audibly laughing. "These aliens are dumb asses."</p>
+<p>Last but not least, your degree bears the imprint of those who have touched your college experience the most, mentoring and encouraging you through it all: Ray Cross, president of the UW System; Chancellor Becky Blank; and Board of Regents President Michael Falbo. The ink stamping of their signatures will set you back $1 each. But when you’re sitting in your old room in your parents’ house, contemplating your liberal arts degree, unemployment and student debt repayment, you’ll know it was all worth it.</p>
 
-<p>In an exclusive interview with the nameless reptilian overlord who has possessed world leaders like George W. Bush and multiple CNN reporters, he said he is now realizing his mistake in choosing University of Wisconsin student leaders to further his master plan.</p>
-
-<p>"I sensed a lot of egos and thought they were actually powerful," he said. "I wasted, like, 20 of my best life forms on this. Fuck."</p>
 <strong>Share this article:</strong>
 <br/><br/>
 <div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
@@ -27,24 +40,30 @@
 
 <?php } else if($_GET['id']=='2') { ?>
 
-<h2>Berquam chooses Slayer to headline Revelry </h2>
+<h2>White girl on Langdon Street really just can’t right now</h2>
+<img src="white_girl.jpg">
+<p>From East Coast to West Coast, from Big Ten to Pac-12, Ivy League to technical schools, female college students across the country are suffering from a devastating condition. Numbers are increasing everywhere of girls who “just can’t right now.”</p>
 
-<p><strong>Sdf</strong></p>
+<p>University of Wisconsin’s campus has been hit with the infectious outbreak, with reports of girls who describe symptoms of “just caaaaaan’t” or “can’t even” heavily concentrated in areas near Langdon Street.</p>
+ 
+<p>UHS officials are stunned and this epidemic leaves researchers in utter confusion, UHS Director Sarah Van Orman said.</p>
+ 
+<p>“What can’t they do? How can they? Is there anyone who can? Would they do it if they could? We’ve met an endless list of questions as such,” Van Orman said. “We are left wondering if these victims ever will be able to.”</p>
+ 
+<p>All studies remain inconclusive. Recently, it has even been brought to the attention of the U.S. Department of Public Health.</p>
+ 
+<p>Even President Barack Obama has addressed the issue.</p>
 
-
-<p>Dean of Students Lori Berquam surprised students Friday by adding the popular heavy metal band, Slayer, to the line-up of the spring festival Revelry.</p>
-
-<p>Slayer will be the headliner for the Revelry Arts and Music Festival held at Union South on May 4th, according to Dean of Students Lori Berquam.</p>
-
-<p>Many were surprised to discover it was Berquam's idea to book the band for the event.</p>
-
-<p>"Slayer has always been one of my favorite bands," Berquam said. "Their music just echoes how I feel about everything ever."</p>
-
-<p>Revelry Executive Committee Director Sarah Mathews said the committee was hesitant to approve the group, but came around when Berquam explained the musical style of the band fit well with the theme of the festival.</p>
-
-<p>There is no better way to celebrate the end of the year than with such upbeat hits as "Eyes of the Insane" and "World Painted Blood," Berquam said.</p>
-
-<p>Berquam added she hopes students will respond well to her headliner choice. Slayer will bring much needed musical diversity to this campus, she said.</p>
+<p>“In my acceptance speech in 2008, I told this nation ‘Yes, we can.’ Finding out that girls across the United States ‘just can’t’ is a great concern to me,” he said.</p>
+ 
+<p>A recently plagued victim from an unnamed location on Langdon Street agreed to speak out about her condition; however, the interview process was difficult to endure.</p>
+ 
+<p>When asked how she got the illness she said, “I can’t, I just can’t. I can’t right now.”</p>
+ 
+<p>We ended the questioning at that.</p>
+ 
+<p>Circumstances that induce situations where these girls can’t include running into a drunk hook-up at Starbucks, getting the zipper on a Northface parka stuck before lecture and finding a joke too incredibly hysterical to handle.
+</p>
 <strong>Share this article:</strong>
 <br/><br/>
 <div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
@@ -53,28 +72,20 @@
 
 
 <?php } else if($_GET['id']=='3') { ?>
-<h2>Ward new Adidas spokesperson</h2>
+<h2>In shocking move, student writes second post on study abroad blog</h2>
 
-<img src="addidas.png" width="500px">
-<p>Interim Chancellor David Ward will become the new face of Adidas, he announced at a news conference Friday.</p>
+<p>In a move that surprised her friends and family, a University of Wisconsin junior studying abroad in Paris posted to her blog for the second time this semester Monday afternoon.</p>
 
+<p>The 400 word update to her blog called “J’ai Wanderlust” marked Peggy Johnson’s first post since departing in January. She said she realized over the weekend she had gotten caught up in all the fun and forgot to remember her audience, comprised of two of her aunts and her little sister. </p>
 
-<p>"I had bought the new Adidas Sambas a week before coming back to campus and got to break them in on my daily walks up Bascom Hill," Ward said. "We had a contract worked out right away, but have been waiting for a chancellor selection."</p>
+<p>“I realized that I hadn’t posted to my blog in a while, and thought ‘shoot, I hope nobody is worried about me!’” Johnson said as she uploaded her 708th photo to her Facebook album called “#PeggysinParis,” which includes several overly-edited photos and a series of almost identical selfies with croissants captioned “#croissantlyfe!” </p>
 
+<p>Highlights from her blog post included photos of her making a “W” with her fingers in front of the Eiffel Tower as well as a description of her day-long quest to find a Starbucks where “they have normal sized coffee servings, LOL.” Johnson also detailed her weekend trip to London with her betches, where she took pictures captioned with “On Wisconsin!” in front of Big Ben and duck faced in front of a Queen’s Guard.</p>
 
-<p>Adidas sources confirmed Ward will be flying to Cancun, Mexico for a promotional photo shoot with fellow Adidas spokesperson Justin Bieber immediately after Rebecca Blank assumes her duties as chancellor.</p>
+<p>She said when making the blog she decided to pay extra for a customized style on Wordpress, which has cursive lettering and a pink background with little candies because it “just felt so like Paris, you know?” </p>
 
-
-<p>Ward will also be featured in Adidas' next commercial campaign, due to his vocal talents. </p>
-
-
-<p>"His British accent is so soothing," a high-ranking Adidas executive said.</p>
-
-
-<p>A Student Labor Action Coalition member wearing a North Face jacket said Ward would now overtly be helping out a company that exploits workers.</p>
-
-
-<p>The student then pulled out her iPhone to check a Snapchat and said, "This phone is literally the best thing that's ever happened to me. I love Apple products."</p>
+<p>At press time, Johnson’s blog had no pageviews. 
+</p>
 
 <strong>Share this article:</strong>
 <br/><br/>
@@ -84,19 +95,21 @@
 
 <?php } else if($_GET['id']=='4') { ?>
 
-<h2>PETA protesters take break, order McDonald's Big Macs</h2>
+<h2>Kanye West’s ‘Bound 2’ to replace ‘On Wisconsin’</h2>
 
-<p>After protesting in front of a University of Wisconsin lab in cat costumes for a day, members of People for the Ethical Treatment of Animals took a break to order Big Macs at McDonald's despite strong internal conflict over the treatment of chickens.</p>
-
-<p>"I infinitely prefer Chicken Selects. May they rest in peace," PETA spokesperson Jeremy Beckham said.</p>
-
-<p>In addition to protesting against UW's animal research ethic violations, PETA members are also bracing themselves for the fourth round of negotiation with University of Wisconsin Lab Cats for the right to legally represent the latter group.</p>
-
-<p>The first two rounds of negotiations went well until Felix, executive director of UWLC, accidentally vomited a ball of fur during the third meeting and felt humiliated by reactions from PETA representatives.</p>
-
-<p>According to a UWLC press release today, "The general impression of the special human interaction committee was that humans are just pretty stupid."</p>
-
-<p>PETA will continue to fight for the right to represent UWLC and protest in more diverse cat costumes in the future, Beckham said.</p>
+<p>Stressing the need for a new fight song for a new era of Badger sports, a University of Wisconsin Athletics Department advisory board voted unanimously Monday to replace the traditional “On Wisconsin” with Kanye West’s “Bound 2.”</p>
+ 
+<p>While the Fan Council, created last semester to address common Game Day issues, aimed to change the “eat shit, fuck you chant” during football games, council members decided to “hell with it” and to “go with the flow,” UW Athletics spokesperson Justin Doherty said.</p>
+ 
+<p>“There’s just something about the phrase, ‘I want to fuck you hard in the sink / after that get you something to drink,’ that says Wisconsin,” Doherty said.</p>
+ 
+<p>He added the council also considered the song “I am a God” from Yeezus but decided against it because of Athletic Director Barry Alvarez’s insistent demand that it be played for him at all times.</p>
+ 
+<p>“I just feel like ‘Bound 2’ is a song that people can really relate to,” Chancellor Rebecca Blank said. “I remember when I was still ‘bound to fall in love’ with Wisconsin when I came to campus last year, similar to how Kanye was still falling in love with Kim. The song is the living embodiment of the Wisconsin Idea and our mission to give back to all of the communities across the state.”</p>
+ 
+<p>“Now hurry up with my damn croissants,” Blank added, to her secretary.</p>
+ 
+<p>Doherty added that UW Athletics is already working on a music video to present the song and decision to the rest of the campus. He said he could not provide many details on production, other than the final video will involve a green screen, two Bucky Badger mascots and a motorcycle. </p>
 
 <strong>Share this article:</strong>
 <br/><br/>
@@ -107,21 +120,19 @@
 <?php } else if($_GET['id']=='5') { ?>
 
 
-<h2>Soglin to host house party on Mifflin Street on May 4</h2>
+<h2>Referendum results show Dane County totally over weed</h2>
 
-<p>After years of struggling with how to keep the Mifflin Street Block Party under control, Mayor Paul Soglin announced Friday he will host a house party for the event.</p>
-
-<p>In the past, Soglin expressed concern over the safety of the block party. He recently decided it would be in the best interest of the community to show his support for the event in the name of fun.</p>
-
-<p>"If you can't beat Ôem, join Ôem," Soglin said.</p>
-
-<p>Soglin said he made an agreement with five University of Wisconsin students who reside on Mifflin Street to host a party at their house. He said he will provide drinks for guests, and is still deciding on a way to monitor underage drinking.</p>
-
-<p>Madison City Clerk Maribeth Witzel-Behl said she is currently looking into the legal details of this act.</p>
-
-<p>Joe Duncan, junior at UW, is one of the men allowing Soglin to host the party at his house.</p>
-
-<p>"I was surprised when Soglin asked me to throw a party at my house for Mifflin, but I think it will be a good time," Duncan said. "I mean, whatever gets me free beer."</p>
+<p>Polling leading up to the election April 1 revealed Dane County residents are strongly opposed to legalizing marijuana.</p>
+ 
+<p>The city’s consensus is that marijuana just isn’t doing the trick. Residents who’ve been smoking illegal cannabis since its discovery in 1960 have grown tolerant to the drug’s psychoactive effects and would like to see a referendum for drugs with a little more kick.</p>
+ 
+<p>“I used to like smoking pot when I was in high school but these days I find myself in the mood for a little bit of LSD or shrooms,” Alice Dee, UW sophomore, said “My favorite is combining them, I call it LSDooms.”</p>
+ 
+<p>Billy Hash, a middle schooler who thinks he’s hot shit, is super annoyed that he is not old enough to vote. He recently smoked for the first time and thinks marijuana is a lot of fun.</p>
+ 
+<p>The results of the election come as a surprise after the decision to put marijuana legalization on the ballot was unanimously accepted.</p>
+ 
+<p>“We thought Dane County would be receptive to having this on the ballot,” Leland Pan, Dane County Supervisor said. “The vote in Dane County was supposed to be a gamechanger for all of Wisconsin.”</p> 
 
 <strong>Share this article:</strong>
 <br/><br/>
@@ -133,14 +144,30 @@
 
 <?php } else if($_GET['id']=='6') { ?>
 
-<h2>Dirty Bird Quote of the Day</h2>
+<h2>Student watching porn in Gordon Commons has a really good excuse</h2>
+<p>Earlier in March a student was caught watching porn at a computer kiosk inside of Gordon Commons.</p>
 
-<p><blockquote style="font-style:italic;">"I am honored and delighted to be offered the job of Chancellor at the University of Wisconsin. But seriously, you guys. If I hear one more fucking joke about that no-talent ass clown Rebecca Black, I am out of here."</blockquote></p>
-
- 
-
-<p>Rebecca Blank</p>
-
+<p>What was not revealed was the reason for why he was using University of Wisconsin property to view various pornography sites around the web during Gordon’s busiest hours.
+</p>
+<p>“I had just had the worst day of my life,” freshman music major Aubrey Graham said. “Too many drinks had been given to me the night before, so I called my ex-girlfriend and poured my heart out earlier in the morning. She refused to think about the good times we had and I awkwardly told her to take a shot for me. To make matters worse I had forgotten to do laundry that night and so all I had to wear was a pair of sweatpants.”
+</p>
+<p>Graham said that because he had forgotten to do laundry he had no clean briefs to wear and in his hung-over state he sprinted to his auditions in Mosse Humanities without them to do his cover of “I Swear” by All 4 One.
+</p>
+<p>During the audition fellow music majors recall Graham getting about halfway through the chorus before letting out a distinct “Ahhhhhh” sound and sprouting a very visible and humiliating erection.
+</p>
+<p>“Honestly these are the kind of things you imagine happening on the set of High School Musical,” sophomore music major Connor Smith said. “Sure I’ve hidden one under a desk, but never in front of the entire class. Waist band it, bro.”
+</p>
+<p>Visibly shaken, Graham was seen sprinting out of the classroom towards East Campus Mall at high speed.
+</p>
+<p>Security cameras at Gordon Commons show Graham sitting down at a computer kiosk and looking over his shoulders frantically as if to make sure he was in the clear.
+</p>
+<p>“At that point I had already hit rock har — I mean bottom,” Graham said. “I knew that my roommate would be home, so this was my only chance to relieve some stress. There is something about doing it in public that makes you feel so alive. My mom always told me that you only live once.”
+</p>
+<p>Police were called when no one dared disturb Graham during his moment of bliss.
+</p><p>As police neared the scene witnesses said Graham bashfully sang the words, “They know, they know, they know” as if to calm himself down.
+</p>
+<p>“I have never been more embarrassed in my life,” Graham said. “Except for that time when I got caught faking a physical disability in high school. Chicks love a guy in a wheelchair.” 
+</p>
 
 <strong>Share this article:</strong>
 <br/><br/>
@@ -151,25 +178,20 @@
 <?php } else if($_GET['id']=='7') { ?>
 
 
-<h2>Letter to the Editor:  Creator must confess sins</h2>
+<h2>Spring block party not ‘anti-Revelry,’ student organizers say </h2>
 
-<p>Letter to the Editor: <strong>Pope Francis I</strong></p>
-
-<p><i>Annuntio voibis tristitia magnum. Non habemus confessiones.</i></p>
-
-<p>That's right. I, His Holiness Pope Francis I, have realized the truest evil facing the Catholic Church is the creation of a college student in the American state of Wisconsin.</p>
-
-<p>This heretic, who calls himself "The Creator" has deemed himself the newest Vicar of Christ and has assumed the role of the primary intermediary between man and God.</p>
-
-<p>Although my election as supreme pontiff may have been the most newsworthy occasion of last month's conclave, the College of Cardinals also discussed the crisis in Madison, which we have deemed to be the most pressing issue currently facing the Church. The Creator has already been excommunicated and will not receive the sacrament, but we have realized something else: No parishioners in Madison are attending confession anymore.</p>
-
-<p>Instead, each of the darkest, most sinful secrets that were once privy only to the sacred bond between a parishioner and his priest are now out in the public view. The heretic receives regular payment for his antics because, my pious colleagues tell me, the clientele that patronize the site are "douchey."</p>
-
-<p>We cannot continue this plunge into the depths of sin and Hell. We cannot continue to take confessions away from the only institution responsible for hearing them: the Church.</p>
-
-<p>Oh, and since I'm lucky enough to get my letter published in The Badger Herald, would you publish my shout-out too?</p>
-
-<p>"ASO to Prada. Why did Benedict get the cool shoes but I didn't?"</p>
+<p>A group of University of Wisconsin students are organizing an end-of-the-year block party, although supporters stress the party is not “anti-Revelry” and that students should be allowed to attend both freely.
+ </p> 
+<p>Supporters of the plan hope to hold the alternative celebration on the same day as Revelry in a neighborhood south of West Johnson Street but north of West Washington Avenue. Supporters stress, however, that the same date is a coincidence.
+ </p> 
+<p>“We wanted to have an end-of-the year block party event, and it’s not anti-Revelry,” Charles Brah, the block party’s spokesperson, said. “It’s the last weekend of the semester, so that’s just the day it happened to fall on.”
+ </p> 
+<p>Brah said the idea for an end-of-the-year block party came to him in a dream, possibly brought on by drinking, in which a younger version of Mayor Paul Soglin appeared to him. He said Soglin urged him to found a celebration as a protest against the war in Afghanistan, which has been fought for almost 13 years.
+ </p> 
+<p>Brah said he appreciated Soglin’s suggestion, but wanted to add a few other elements to the event such as house parties, kegs and two-story plastic tubes with funnels. He said the block hopes to have a few stages where local musicians will play, although the main focus of the event will be drinking and occasional violence.
+ </p> 
+<p>“I mean, having a protest against a war is OK, but I really, really just want to have a whole block of house parties,” Brah said. “I imagine standing ankle-deep in beer cans and not knowing what is going on or having any memory of it later. Then I plan to study for finals the next day.”
+</p>
 <strong>Share this article:</strong>
 <br/><br/>
 <div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
@@ -180,22 +202,23 @@
 <?php } else if($_GET['id']=='8') { ?>
 
 
-<h2>Bruesewitz's hair actually wig</h2>
-<img src="jerry.png" width="500px">
+<h2>Chancellor Blank one of rapper Waka Flocka Flame’s biggest fans</h2>
+<img src="waka_blank.jpg">
 
-<p>After five years, Mike Bruesewitz has had enough.</p>
-
-<p>A new report by UW authority Mike Lucas confirms Bruesewitz has come forward to admit that his various hairdos across the years have been, in fact, wigs.</p>
-
-<p>"My natural hair color is actually brown," Bruesewitz tells Lucas in the shocking interview. "Nobody cares about another basketball player with normal hair."</p>
-
-<p>Just trying to standout, Bruesewitz admits it was Bo Ryan who came up with the idea.</p>
-
-<p>"Coach Ryan just said, ÔYou want to play don't you?' It all happened so fast. We were in a wig store before I knew it, and the rest was just a blur."</p>
-
-<p>After various different wigs in looks called "tomato top," "Kraemer" and "redhead dreads," the Wisconsin senior said he is ready for life to go back to normal.</p>
-
-<p>"You think I like looking like a douche all the time?" Bruesewitz said. "I might be one, but that doesn't mean I want to look like one!"</p>
+<p>New emails recently leaked from the office of UW Chancellor Rebecca Blank show she chancellor may have had more than a hand in the decision to choose rapper Waka Flocka Flame to headline this year’s Revelry festival.
+ </p> 
+<p>The emails date back over a year and suggest Blank is perhaps Flocka’s biggest fan. The chancellor’s correspondence with the rapper, whose real name is Juaquin Malphurs, began as early as last May, post Revelry 2013.
+ </p> 
+<p>The first email, subject line “performance PLZ,” details Blank’s love for such hits as “No Hands” and “Going Hard in Da Paint.”  However, the emails also show Blank’s more in-depth appreciation for the rapper, citing some little known favorites.
+ </p> 
+<p>“Your music really speaks to me,” Blank wrote in an email. “But more importantly, songs like ‘College Girl,’ ‘Red Ferrari’ and ‘Tax Money’ truly speak to the Wisconsin Idea.”
+ </p> 
+<p>The chancellor proceeded to request via email Flocka’s appearance at not only Revelry, but also various Welcome Week events, Freakfest and even Commencement. Jon Huntsman could not be reached for comment on being runner-up to Waka Flocka Flame.
+ </p> 
+<p>The rapper eventually agreed to appear at Revelry 2014, where he said he plans to perform some of his biggest hits. Flocka also said he is, in fact, a fan of the chancellor as well. He noted in an email that his 2013 track “Real Recognize Real” was actually an ode to Blank’s performance as acting Secretary of Commerce.
+ </p> 
+<p>Revelry will take place May 3, 2014 at the Memorial Union on Langdon Street. 
+</p>
 <strong>Share this article:</strong>
 <br/><br/>
 <div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
@@ -205,25 +228,22 @@
 
 <?php } else if($_GET['id']=='9') { ?>
 
-<h2>Giant statue of Alvarez to be constructed </h2>
-<img src="barry.png" width="500px">
-
-<p>Barry Alvarez revealed plans Sunday for the construction of a giant, 50-foot golden statue built in his likeness.</p>
-
-<p>The location of the monument? The middle of Camp Randall's field, of course.</p>
-
-<p>"Let's be honest, ever since I've left I've cast a huge fucking shadow over this program," Alvarez said, redfaced at a local bar. "So, I figured, what the hell? Might as well make that shadow a literal one instead of a metaphor."</p>
-
-<p>The pose of the statue will capture a stoic Alvarez carrying an entire coaching staff on his back.</p>
-
-<p>"It just sort of describes how I felt before [football head] coach [Gary] Andersen took over here," Alvarez slurred. "It was like babysitting a bunch of high school football coaches here the last couple of years."</p>
-
-<p>Wisconsin has held its football practices indoors with a giant pit in the middle of the field to simulate what play will be like with the statue on the field.</p>
-
-<p>Already, the Badgers' David Gilbert has fallen in the pit and rescue teams are struggling to locate the defensive player.</p>
-
-<p>"Ah, David disappeared last year," Alvarez joked.</p>
-
+<h2>Jon Huntsman saw UW students’ angry commencement tweets, wept bitterly</h2>
+<img src="john_huntsman.jpg">
+<p>Red and puffy-eyed, with tear tracks down his face and tissues strewn around, Jon Huntsman called his mom over the weekend saying University of Wisconsin students were being mean.
+ </p> 
+<p>Following the announcement of Huntsman as UW’s commencement speaker, he was found sniffling under his covers as flashbacks of being the last kid to be picked for dodgeball and hanging from the flag post by a wedgie replayed in his mind. The broken-hearted Huntsman couldn’t believe that no one remembered he had also rubbed Abe’s toe and drank non-alcoholic beer at the Terrace while he completed his music degree at UW.
+ </p> 
+<p>UW students expressed outrage that the speaker was not nearly conservative enough to be representative of the Republican majority town. Students decried efforts of Huntsman’s bipartisanship as signs of weakness and failure to hold steadfast to his beliefs.
+ </p> 
+<p>“Look at the precedent he sets, constantly crossing over party lines,” UW student Davy Rookstide said. “How can we expect to maintain the integrity of our nation if we compromise our morals?”
+ </p> 
+<p>UW College Republicans said they would continue to lobby for Michele Bachmann, who Rookstide said would be a more inclusive speaker.
+ </p> 
+<p>Others however, supported the announcement and said Huntsman was a bold choice from the diverse, marginalized women speakers the university had a habit of recruiting in previous years.
+ </p> 
+<p>“It’s a refreshing change,” UW professor Kathy McGregor said. “This is an average guy that students are actually going to be able to relate to.”  
+</p>
 <strong>Share this article:</strong>
 <br/><br/>
 <div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
@@ -235,19 +255,26 @@
 
 
 
-<h2>Athletic department reveals surplus</h2>
+<h2>Poll finds half of state voters likely to vote for the other candidate that isn’t Walker </h2>
 
-
-<p>For the first time in seven years, the University of Wisconsin's Athletic Department revealed a budget surplus to the Board of Regents Sunday.</p>
-
-<p>"Just in the past three months alone, we've saved a million dollars," Wisconsin athletic director Barry Alvarez said to the board. "Lately, we've seen a monumental decrease in the amount of money we've had to spend on feeding our coaches and players."</p>
-
-<p>Upon a records request, The Dirty Bird found the reason for the surplus. The team has no longer ordered its expensive request of "A Shit Ton of Ribs" every month from the local eatery, Brickhouse Barbeque.</p>
-
-<p>It appears the order was for the monstrous appetite of former football head coach Bret Bielema, whose favorite food was ribs. The coach could often be seen nibbling on a rib bone or with barbeque stains on his lips during and after practices.</p>
-
-<p>In other news, farmers in Arkansas are on high alert for a large creature that "walks on its hind legs and breathes heavily out of his mouth" and is stealing their pigs.</p>
-
+<p>A new poll released Monday shows Gov. Scott Walker holding a seven-point lead on his Democratic opponent in Wisconsin’s upcoming November elections, in a development experts suggest may be because nobody knows his opponent’s name or her stance on issues.
+ </p> 
+<p>According to a Marquette Law School Poll, 49 percent of Wisconsin’s likely voters would vote for Walker in the election, while 41 percent replied that they’ll vote for that “other one.”
+ </p> 
+<p>“Walker’s kept a consistent and strong message of cutting government spending and taxes, while … um … his opponent, you know who I’m talking about? Yeah. She’s certainly doing something,” Charles Franklin, the Marquette Law School professor who oversees the poll, said.
+</p>
+<p>Franklin said many voters are not pleased with Walker’s tactics and stances on critical issues such as health care and education, but express genuine shock that not only is he facing re-election later this year but that somebody has stepped forward to challenge him.
+ </p> 
+<p>Franklin added even he was surprised to find out that Walker had a challenger.
+ </p> 
+<p>“When I saw a draft of the poll, I went and asked my pollsters if they were sure he had an opponent and that it wasn’t a mistake — it was the first time I was hearing about it,” Franklin said. “Most of them said no, but one guy kept on insisting so we Googled it. Sure enough, someone was running against him.”
+ </p> 
+<p>Walker spokesperson Tom Evenson said the poll showed voters are pleased with Walker’s reforms, while his opponent would probably do something bad.
+ </p> 
+<p>He said this “bad thing” would probably cause job losses, although he admitted he was not entirely sure what she would do, who she was or why she would run.
+ </p> 
+<p>Democratic Party of Wisconsin chair Mike Tate declined comment on the poll until he had verified that his party was in fact running a candidate against Walker. 
+</p>
 <strong>Share this article:</strong>
 <br/><br/>
 <div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
@@ -258,8 +285,8 @@
 <?php } else if($_GET['id']=='11') { ?>
 
 
-<h2>Bo Ryan's family reunion is methodical, effective </h2>
-
+<h2>Nation captivated by college newspaper writer’s opinions on Ukraine</h2>
+<img src="plugin.png">
 
 <p>As a 19-year-old freshman political science major and weekly viewer of CNN, I feel very qualified to share with my readers my opinions of the situation in Ukraine, although this is simply a campus newspaper in Wisconsin, and the conflict in which Ukraine and Russia are involved in is one of international proportions.</p>
  
@@ -281,8 +308,8 @@
 <?php } else if($_GET['id']=='12') { ?>
 
 
-<h2>Sloppy Seconds</h2>
-
+<h2>Letter to the Editor: Alcohol consumption suspected in Sellery Hall </h2>
+<img src="celery.jpg">
 <p>My weekly schedule is one dedicated to the pursuit of academic excellence. Monday nights I stay in my dorm room in Sellery studying, Tuesday nights I stay in my dorm room studying, Wednesday nights I sometimes go to the SAC to study, but usually I am in my dorm room. Thursday nights I study in my dorm room, as with my Friday and Saturday nights too. Sunday nights I allow myself to watch Netflix for one hour — and then devote the rest of the evening to my studies. </p>
 
 <p>That has been my life for the past seven months, and due to my constant presence in the dorm, I can’t shake this awful feeling that students on my floor are not in sync with my schedule, that, in fact, many don’t spend every evening studying like I do. I even think, and I may be bold in saying this, that my underage floormates are actually engaging in illegal activities, specifically the consumption of alcohol and, quite possibly drugs on many weeknights. And the worst part? The one authority figure on my floor, my house fellow, is in on it. He drinks with them. </p>
@@ -298,8 +325,8 @@
 <?php } else if($_GET['id']=='13') { ?>
 
 
-<h2>Band violence prompts venue action </h2>
-
+<h2>Breaking Bucky: UW Athletics revealed as front for international drug ring</h2>
+<img src="BreakingBucky.jpg">
 <p>With every Bucky baseball hat or bro tank emblazoned with the Motion W you buy, sources revealed Monday that you’re pouring money into one of the most elaborately camouflaged and expansive drug ring fronts in history — the University of Wisconsin Athletics Department.</p>
 
 <p>Little did thousands of season ticket holders, brat stand vendors or student-athletes know, they’ve been cogs in an international drug scheme peddling cocaine, methamphetamine and PCP around the globe for years.</p>
@@ -323,8 +350,8 @@
 <?php } else if($_GET['id']=='14') { ?>
 
 
-<h2>Band violence prompts venue action </h2>
-
+<h2>Analysis: team wins game after scoring more points than other team</h2>
+<img src="doge.jpg">
 <p>In a close game between a red team and a white team, the red team won Saturday night after getting more points than the other one.</p>
 
 <p>The ultimate score at the end of the basketball match was 64-63, which shows the game was close. If the white team would have scored two more points, they would have won. But they did not.</p>
@@ -347,8 +374,8 @@
 <?php } else if($_GET['id']=='15') { ?>
 
 
-<h2>Band violence prompts venue action </h2>
-
+<h2>Wisconsin to play outdoor game in May on (hopefully) frozen Lake Mendota</h2>
+<img src="lake.jpg">
 <p>The Wisconsin men’s hockey team announced Saturday that it will play an outdoor exhibition game on Lake Mendota in May as part of a month-long celebration of the careers of nine seniors.</p>
  
 <p>Ironically enough, Wisconsin’s opponent for the game will be University of Miami (Fla.) — not to be confused with Miami (Oh.), a team the Badgers faced earlier this season — the warm weather football giant that apparently recently introduced a hockey team into its athletic program.</p>
@@ -378,7 +405,7 @@
 <?php } else if($_GET['id']=='16') { ?>
 
 
-<h2>Band violence prompts venue action </h2>
+<h2>Athletes accused of not constantly putting sports over graduation</h2>
 
 <p>In a disturbing exposure late last Friday afternoon, several tutors and other members of the Wisconsin Athletics Academic Services revealed that more than 100 Badger athletes in cross-country, rowing, swimming and diving, among other non-revenue sports have actually been completing their own course work and somehow managing to succeed.</p>
 
@@ -423,7 +450,7 @@
 <?php } else if($_GET['id']=='17') { ?>
 
 
-<h2>Sex advice from UW betch</h2>
+<h2>Steamy, titillating advice from a senior betch</h2>
 
 <p>Hey, sexy Badgers! We’ve got a ton of questions flooding into the inbox, so we’re gonna get to a couple of the juiciest ones right now. My pussy is wet with anticipation of answering these, so let’s get started before I squirt all over these term papers I’ve got sitting in front of me.</p>
 

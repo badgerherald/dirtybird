@@ -33,13 +33,14 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <ul class="story-list">
 <li class="cf">
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>ASM overrun by reptilian shape-shifters</h2>
+<h2>The value of a college degree: here’s what it’s really worth</h2>
 </a>
 </li>
 
 <li class="cf">
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Berquam chooses Slayer to headline Revelry </h2>
+<h2>White girl on Langdon Street really just can’t right now</h2>
+<img src="white_girl.jpg">
 
 </a>
 
@@ -47,54 +48,53 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <li class="cf">
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Ward new Adidas spokesperson</h2>
+<h2>In shocking move, student writes second post on study abroad blog</h2>
+
+</a>
+</li>
+<li class="cf">
+<a href="index.php?id=<?php echo $id; $id++; ?>">
+<h2>Kanye West’s ‘Bound 2’ to replace ‘On Wisconsin’</h2>
+</a>
+</li>
+<li class="cf">
+<a href="index.php?id=<?php echo $id; $id++; ?>">
+<h2>Referendum results show Dane County totally over weed</h2>
+</a>
+
+</li>
+<li class="cf">
+<a href="index.php?id=<?php echo $id; $id++; ?>">
+<h2>Student watching porn in Gordon Commons has a really good excuse</h2>
+
+</a>
+
+</li>
+<li class="cf">
+<a href="index.php?id=<?php echo $id; $id++; ?>">
+<h2>Spring block party not ‘anti-Revelry,’ student organizers say </h2>
+
+</a>
+
+</li>
+<li class="cf">
+<a href="index.php?id=<?php echo $id; $id++; ?>">
+<h2>Chancellor Blank one of rapper Waka Flocka Flame’s biggest fans</h2>
 
 <img src="waka_blank.jpg">
 </a>
-</li>
-<li class="cf">
-<a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>PETA protesters take break, order McDonald's Big Macs</h2>
-</a>
-</li>
-<li class="cf">
-<a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Soglin to host house party on Mifflin Street on May 4</h2>
-<img src="white_girl.jpg">
-</a>
 
 </li>
 <li class="cf">
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Soglin to host house party on Mifflin Street on May 4</h2>
-
-</a>
-
-</li>
-<li class="cf">
-<a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Soglin to host house party on Mifflin Street on May 4</h2>
-
-</a>
-
-</li>
-<li class="cf">
-<a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Soglin to host house party on Mifflin Street on May 4</h2>
-
-</a>
-
-</li>
-<li class="cf">
-<a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Soglin to host house party on Mifflin Street on May 4</h2>
+<h2>Jon Huntsman saw UW students’ angry commencement tweets, wept bitterly</h2>
 <img src="john_huntsman.jpg">
 </a>
 
 </li>
 <li class="cf">
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Soglin to host house party on Mifflin Street on May 4</h2>
+<h2>Poll finds half of state voters likely to vote for the other candidate that isn’t Walker </h2>
 
 </a>
 
@@ -110,20 +110,17 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <hr>
 <ul class="opinion-list cf">
 <li><a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Nation captivated by student’s opinions on Ukraine</h2>
+<h2>Nation captivated by college newspaper writer’s opinions on Ukraine</h2>
 <img src="plugin.png">
 </a></li>
 <li>
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Alcohol consumption suspected in Sellery Hall-LTE</h2>
+<h2>Letter to the Editor: Alcohol consumption suspected in Sellery Hall </h2>
 <img src="celery.jpg">
 </a>
 </li>
 </ul>
-<div class="BLANK">
-<h3>Our thoughts on UW Chancellor Becky Blank’s first term so far</h3>
-<img src="bird-eye.png">
-</div>
+
 </div>
 <div class="sports">
 <h1>Sports?</h1>
@@ -131,13 +128,14 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <ul class="story-list sports-list cf">
 <li style="background: #F6CECE;">
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>ASM overrun by reptilian shape-shifters</h2>
+<h2>Breaking Bucky: UW Athletics revealed as front for international drug ring</h2>
+<img src="BreakingBucky.jpg">
 </a>
 </li>
 
 <li>
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Berquam chooses Slayer to headline Revelry </h2>
+<h2>Analysis: team wins game after scoring more points than other team</h2>
 <img src="doge.jpg">
 </a>
 
@@ -145,13 +143,13 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <li>
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Ward new Adidas spokesperson</h2>
+<h2>Wisconsin to play outdoor game in May on (hopefully) frozen Lake Mendota</h2>
 <img src="lake.jpg">
 </a>
 </li>
 <li style="background: #F6CECE;">
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>PETA protesters take break, order McDonald's Big Macs</h2>
+<h2>Athletes accused of not constantly putting sports over graduation</h2>
 
 </a>
 </li>
@@ -165,13 +163,13 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <ul class="story-list arts-list cf">
 <li>
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>ASM overrun by reptilian shape-shifters</h2>
+<h2>Steamy, titillating advice from a senior betch</h2>
 </a>
 </li>
 
 <li>
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>Berquam chooses Slayer to headline Revelry </h2>
+<h2>I took Adderall and went to College Library</h2>
 
 </a>
 

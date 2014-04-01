@@ -67,7 +67,7 @@
 <?php } else if($_GET['id']=='6') { ?> 
 <meta property="og:title" content="Student watching porn in Gordon Commons has a really good excuse"/>
 <?php } else if($_GET['id']=='7') { ?> 
-<meta property="og:title" content="Spring block party not 'anti-Revelry,' student organizers say"/>
+<meta property="og:title" content="Spring block party not anti-Revelry, student organizers say"/>
 <?php } else if($_GET['id']=='8') { ?> 
 <meta property="og:title" content="Chancellor Blank one of rapper Waka Flocka Flame's biggest fans"/>
 <?php } else if($_GET['id']=='9') { ?> 

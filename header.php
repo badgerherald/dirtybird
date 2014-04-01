@@ -21,7 +21,7 @@
 <?php } else if($_GET['id']=='6') { ?> }
 <title>Student watching porn in Gordon Commons has a really good excuse</title>
 <?php } else if($_GET['id']=='7') { ?> }
-<title>Spring block party not ‘anti-Revelry,' student organizers say</title>
+<title>Spring block party not 'anti-Revelry,' student organizers say</title>
 <?php } else if($_GET['id']=='8') { ?> }
 <title>Chancellor Blank one of rapper Waka Flocka Flame's biggest fans</title>
 <?php } else if($_GET['id']=='9') { ?> }

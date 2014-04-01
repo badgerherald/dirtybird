@@ -36,7 +36,7 @@ if($next_id == 19){
 
 <?php } else if($_GET['id']=='2') { ?>
 
-<h2>White girl on Langdon Street really just can’t right now</h2>
+<h2>White girls on Langdon Street really just can’t right now</h2>
 <img src="white_girl.jpg">
 <p>From East Coast to West Coast, from Big Ten to Pac-12, Ivy League to technical schools, female college students across the country are suffering from a devastating condition. Numbers are increasing everywhere of girls who “just can’t right now.”</p>
 

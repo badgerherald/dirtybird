@@ -39,7 +39,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <li class="cf">
 <a href="index.php?id=<?php echo $id; $id++; ?>">
-<h2>White girl on Langdon Street really just can’t right now</h2>
+<h2>White girls on Langdon Street really just can’t right now</h2>
 <img src="white_girl.jpg">
 
 </a>

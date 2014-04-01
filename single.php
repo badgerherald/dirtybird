@@ -31,11 +31,7 @@ if($next_id == 19){
 
 <p>Last but not least, your degree bears the imprint of those who have touched your college experience the most, mentoring and encouraging you through it all: Ray Cross, president of the UW System; Chancellor Becky Blank; and Board of Regents President Michael Falbo. The ink stamping of their signatures will set you back $1 each. But when you’re sitting in your old room in your parents’ house, contemplating your liberal arts degree, unemployment and student debt repayment, you’ll know it was all worth it.</p>
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 
 <?php } else if($_GET['id']=='2') { ?>
@@ -64,11 +60,7 @@ if($next_id == 19){
  
 <p>Circumstances that induce situations where these girls can’t include running into a drunk hook-up at Starbucks, getting the zipper on a Northface parka stuck before lecture and finding a joke too incredibly hysterical to handle.
 </p>
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 
 <?php } else if($_GET['id']=='3') { ?>
@@ -87,11 +79,7 @@ if($next_id == 19){
 <p>At press time, Johnson’s blog had no pageviews. 
 </p>
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } else if($_GET['id']=='4') { ?>
 
@@ -111,11 +99,7 @@ if($next_id == 19){
  
 <p>Doherty added that UW Athletics is already working on a music video to present the song and decision to the rest of the campus. He said he could not provide many details on production, other than the final video will involve a green screen, two Bucky Badger mascots and a motorcycle. </p>
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } else if($_GET['id']=='5') { ?>
 
@@ -134,11 +118,7 @@ if($next_id == 19){
  
 <p>“We thought Dane County would be receptive to having this on the ballot,” Leland Pan, Dane County Supervisor said. “The vote in Dane County was supposed to be a gamechanger for all of Wisconsin.”</p> 
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 
 
@@ -169,11 +149,7 @@ if($next_id == 19){
 <p>“I have never been more embarrassed in my life,” Graham said. “Except for that time when I got caught faking a physical disability in high school. Chicks love a guy in a wheelchair.” 
 </p>
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } else if($_GET['id']=='7') { ?>
 
@@ -192,11 +168,7 @@ if($next_id == 19){
  </p> 
 <p>“I mean, having a protest against a war is OK, but I really, really just want to have a whole block of house parties,” Brah said. “I imagine standing ankle-deep in beer cans and not knowing what is going on or having any memory of it later. Then I plan to study for finals the next day.”
 </p>
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 
 <?php } else if($_GET['id']=='8') { ?>
@@ -219,11 +191,7 @@ if($next_id == 19){
  </p> 
 <p>Revelry will take place May 3, 2014 at the Memorial Union on Langdon Street. 
 </p>
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 
 <?php } else if($_GET['id']=='9') { ?>
@@ -244,11 +212,7 @@ if($next_id == 19){
  </p> 
 <p>“It’s a refreshing change,” UW professor Kathy McGregor said. “This is an average guy that students are actually going to be able to relate to.”  
 </p>
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 
 <?php } else if($_GET['id']=='10') { ?>
@@ -275,11 +239,7 @@ if($next_id == 19){
  </p> 
 <p>Democratic Party of Wisconsin chair Mike Tate declined comment on the poll until he had verified that his party was in fact running a candidate against Walker. 
 </p>
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 
 <?php } else if($_GET['id']=='11') { ?>
@@ -299,11 +259,7 @@ if($next_id == 19){
 <p>And that’s my vision of the perfect world. We would lose Russia, but we’d have peace. When I run for president in 25-odd years, vote for me and my platform of peace.</p>
 
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } else if($_GET['id']=='12') { ?>
 
@@ -315,11 +271,7 @@ if($next_id == 19){
 <p>That has been my life for the past seven months, and due to my constant presence in the dorm, I can’t shake this awful feeling that students on my floor are not in sync with my schedule, that, in fact, many don’t spend every evening studying like I do. I even think, and I may be bold in saying this, that my underage floormates are actually engaging in illegal activities, specifically the consumption of alcohol and, quite possibly drugs on many weeknights. And the worst part? The one authority figure on my floor, my house fellow, is in on it. He drinks with them. </p>
 
 <p>I may be putting myself in danger by writing this, but word of this needs to reach the right ears in order to instill the necessary change. This drinking conspiracy is bigger than you, bigger than me, and it needs to end. Let’s work together to save Sellery and bring the collective BAC back to my level, zero. Our futures, and the future of this great nation, are at stake, should this illicit activity continue.</p>
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 
 <?php } else if($_GET['id']=='13') { ?>
@@ -341,11 +293,7 @@ if($next_id == 19){
 
 
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } else if($_GET['id']=='14') { ?>
 
@@ -365,11 +313,7 @@ if($next_id == 19){
 <p>Really, in the end it was likely the fast running and good jumping that brought the red team success despite missing the far away shots. Now they get to go on a road trip maybe, which sounds pretty sweet.</p> 
 
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } else if($_GET['id']=='15') { ?>
 
@@ -396,11 +340,7 @@ if($next_id == 19){
 <p>“This is going to start a new age in college hockey. If you know how to swim, you’re not going to want to miss this game,” Eaves said. </p> 
 
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } else if($_GET['id']=='16') { ?>
 
@@ -441,11 +381,7 @@ if($next_id == 19){
 <p>“I truly believe we can get these kids to understand that winning is the most important lesson they can learn in college and you don’t need a degree to be a winner,” Alvarez said. “Work in the classroom won’t help them learn that lesson. The work on the field and in the weight room is all that matters.”</p>
 
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } else if($_GET['id']=='17') { ?>
 
@@ -473,11 +409,7 @@ if($next_id == 19){
 <p>Of course. I love it when my boyfriend shits all over my face. Yum!</p>
 
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } else if($_GET['id']=='18') { ?>
 
@@ -518,11 +450,7 @@ if($next_id == 19){
 
 
 
-<strong>Share this article:</strong>
-<br/><br/>
-<div class="fb-like" data-href="http://badgerherald.com/dirtybird/2013/index.php?id=<?php echo $id; $id++; ?>" data-send="true" data-width="450" data-show-faces="true"></div>
 
-<br/><br/>
 
 <?php } ?>
 

@@ -1,14 +1,98 @@
 <html>
 
+
+
+
+
 <head>
 	
-	<title>THE DIRTYBIRD</title>
+
+
+	<?php if($_GET['id']=='1') { ?>
+<title>The value of a college degree: here’s what it’s really worth</title>
+<?php } else if($_GET['id']=='2') { ?> }
+<title>White girls on Langdon Street really just can’t right now</title>
+<?php } else if($_GET['id']=='3') { ?> }
+<title>In shocking move, student writes second post on study abroad blog</title>
+<?php } else if($_GET['id']=='4') { ?> }
+<title>In shocking move, student writes second post on study abroad blog</title>
+<?php } else if($_GET['id']=='5') { ?> }
+<title>Referendum results show Dane County totally over weed</title>
+<?php } else if($_GET['id']=='6') { ?> }
+<title>Student watching porn in Gordon Commons has a really good excuse</title>
+<?php } else if($_GET['id']=='7') { ?> }
+<title>Spring block party not ‘anti-Revelry,’ student organizers say</title>
+<?php } else if($_GET['id']=='8') { ?> }
+<title>Chancellor Blank one of rapper Waka Flocka Flame’s biggest fans</title>
+<?php } else if($_GET['id']=='9') { ?> }
+<title>Jon Huntsman saw UW students’ angry commencement tweets, wept bitterly</title>
+<?php } else if($_GET['id']=='10') { ?> }
+<title>Poll finds half of state voters likely to vote for the other candidate that isn’t Walker</title>
+<?php } else if($_GET['id']=='11') { ?> }
+<title>Nation captivated by college newspaper writer’s opinions on Ukraine</title>
+<?php } else if($_GET['id']=='12') { ?> }
+<title>Letter to the Editor: Alcohol consumption suspected in Sellery Hall</title>
+<?php } else if($_GET['id']=='13') { ?> }
+<title>Breaking Bucky: UW Athletics revealed as front for international drug ring</title>
+<?php } else if($_GET['id']=='14') { ?> }
+<title>Analysis: team wins game after scoring more points than other team</title>
+<?php } else if($_GET['id']=='15') { ?> }
+<title>Wisconsin to play outdoor game in May on (hopefully) frozen Lake Mendota</title>
+<?php } else if($_GET['id']=='16') { ?> }
+<title>Athletes accused of not constantly putting sports over graduation</title>
+<?php } else if($_GET['id']=='17') { ?> }
+<title>Steamy, titillating advice from a senior betch</title>
+<?php } else { ?> }
+<title>The Dirtybird - A Saterical Badger Herald Publication</title>
+<?php } ?>
+
+
+	
 	<META http-equiv="Content-Type" Content="text/html; charset=euc-jp">
 	<link rel="Shortcut Icon" href="/rsc/images/favicon.ico" type="image/x-icon"/>
 	<!-- Add the script to the HEAD of your document -->
 	
 <meta property="og:image" content="http://badgerherald.com/dirtybird/logo-main.png"/>
-<meta property="og:title" content="THE DIRTY BIRD - A SATIRICAL BADGER HERALD PRODUCTION"/>
+
+<?php if($_GET['id']=='1') { ?>
+<meta property="og:title" content="The value of a college degree: here’s what it’s really worth"/>
+<?php } else if($_GET['id']=='2') { ?> }
+<meta property="og:title" content="White girls on Langdon Street really just can’t right now"/>
+<?php } else if($_GET['id']=='3') { ?> }
+<meta property="og:title" content="In shocking move, student writes second post on study abroad blog"/>
+<?php } else if($_GET['id']=='4') { ?> }
+<meta property="og:title" content="In shocking move, student writes second post on study abroad blog"/>
+<?php } else if($_GET['id']=='5') { ?> }
+<meta property="og:title" content="Referendum results show Dane County totally over weed"/>
+<?php } else if($_GET['id']=='6') { ?> }
+<meta property="og:title" content="Student watching porn in Gordon Commons has a really good excuse"/>
+<?php } else if($_GET['id']=='7') { ?> }
+<meta property="og:title" content="Spring block party not ‘anti-Revelry,’ student organizers say"/>
+<?php } else if($_GET['id']=='8') { ?> }
+<meta property="og:title" content="Chancellor Blank one of rapper Waka Flocka Flame’s biggest fans"/>
+<?php } else if($_GET['id']=='9') { ?> }
+<meta property="og:title" content="Jon Huntsman saw UW students’ angry commencement tweets, wept bitterly"/>
+<?php } else if($_GET['id']=='10') { ?> }
+<meta property="og:title" content="Poll finds half of state voters likely to vote for the other candidate that isn’t Walker"/>
+<?php } else if($_GET['id']=='11') { ?> }
+<meta property="og:title" content="Nation captivated by college newspaper writer’s opinions on Ukraine"/>
+<?php } else if($_GET['id']=='12') { ?> }
+<meta property="og:title" content="Letter to the Editor: Alcohol consumption suspected in Sellery Hall"/>
+<?php } else if($_GET['id']=='13') { ?> }
+<meta property="og:title" content="Breaking Bucky: UW Athletics revealed as front for international drug ring"/>
+<?php } else if($_GET['id']=='14') { ?> }
+<meta property="og:title" content="Analysis: team wins game after scoring more points than other team"/>
+<?php } else if($_GET['id']=='15') { ?> }
+<meta property="og:title" content="Wisconsin to play outdoor game in May on (hopefully) frozen Lake Mendota"/>
+<?php } else if($_GET['id']=='16') { ?> }
+<meta property="og:title" content="Athletes accused of not constantly putting sports over graduation"/>
+<?php } else if($_GET['id']=='17') { ?> }
+<meta property="og:title" content="Steamy, titillating advice from a senior betch"/>
+<?php } else { ?> }
+<meta property="og:title" content="The Dirty Bird - A Saterical Badger Herald Publication"/>
+<?php } ?>
+
+
 <link rel="stylesheet" type="text/css" href="style.css" />
 <link href="http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic|Yanone+Kaffeesatz:400,300,700|Open+Sans|PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">
 	
